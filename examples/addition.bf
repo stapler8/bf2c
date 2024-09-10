@@ -1,7 +1,7 @@
-get user input for c1
+get user input for c0
 ,
 
-get user input for c2
+get user input for c1
 >,
 
 add the two values together
