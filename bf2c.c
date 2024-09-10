@@ -168,5 +168,5 @@ void run(char* buffer, long cellCount)
     }
 
     free(cells);
-
+    freeLoopStack(currentLoop);
 }

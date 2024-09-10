@@ -41,3 +41,15 @@ char* popLoop(struct LoopStack* root)
     *root = *root->next;
     return loopStart;
 }
+
+void freeLoopStack(struct LoopStack* root)
+{
+    if (root->next == NULL)
+        free(root);
+    else
+    {
+        struct LoopStack* next = root->next;
+        free(root);
+        freeLoopStack(next);
+    }
+}
