@@ -1,2 +1,7 @@
 # bf2c
-Hobby brainfuck interpreter
+Hobby brainf*ck interpreter written in C
+
+Usage:
+`./bf2c <inFile>`
+
+
